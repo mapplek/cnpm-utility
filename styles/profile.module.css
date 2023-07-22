@@ -1,0 +1,107 @@
+.front_panel {
+    background-image: linear-gradient(330deg, #21D4FD 0%, #B721FF 100%);
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 90%;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.connect_button {
+    height: 75px;
+    width: 250px;
+    margin: 200px auto;
+
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+    font-size: 20px;
+    color: #ffffff;
+    font-family: courier;
+}
+
+.loading_area {
+    height: 75px;
+    width: 250px;
+    margin: 200px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loading_text {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: courier;
+}
+
+.header_container {
+    overflow: scroll;
+    background-color: #4158D0;
+    background-image: linear-gradient(0deg, #4158D0 0%, #C850C0 20%, #FFCC70 79%);
+}
+
+.connect_container {
+    display: flex;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.menu_container {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.291);
+}
+
+.menu_area {
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: courier;
+    background-color: rgba(103, 60, 0, 0.821);
+
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.menu_area:disabled {
+    background-color: #444444;
+    color: #888888;
+    cursor: no-drop;
+}
+
+.disconnect_button {
+    height: 35px;
+    width: 150px;
+    margin: 10px;
+
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+
+    font-size: 14px;
+    color: #ffffff;
+    font-family: courier;
+}
+
+.address_area {
+    height: 35px;
+    line-height: 35px;
+    margin: 10px;
+    vertical-align: middle;
+    font-family: courier;
+}
