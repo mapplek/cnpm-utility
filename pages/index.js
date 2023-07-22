@@ -1,5 +1,5 @@
 import { WagmiConfig, createConfig, configureChains } from 'wagmi'
-import { goerli } from 'wagmi/chains'
+import { mainnet } from 'wagmi/chains'
 import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { infuraProvider } from 'wagmi/providers/infura'
 import { publicProvider } from 'wagmi/providers/public'
@@ -16,7 +16,7 @@ const { publicClient } = configureChains(
 )
 
 const connector = new MetaMaskConnector({
-    chains: [goerli]
+    chains: [mainnet]
 })
 
 const config = createConfig({
