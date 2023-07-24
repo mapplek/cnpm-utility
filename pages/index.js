@@ -7,7 +7,7 @@ import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import Profile from 'components/profile'
  
 const { publicClient } = configureChains(
-    [goerli],
+    [mainnet],
     [
         alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_MAINNET_ALCHEMY_API_KEY }),
         infuraProvider({ apiKey: process.env.NEXT_PUBLIC_MAINNET_INFURA_API_KEY }),

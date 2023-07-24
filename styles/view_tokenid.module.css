@@ -49,6 +49,12 @@
     justify-content: space-around;
     margin: 6px auto;
 }
+@media screen and (max-width:480px) {
+    .player_bar {
+        width: 100%;
+        justify-content: center;
+    }
+}
 
 .container_grid::-webkit-scrollbar {
     width: 15px;
@@ -109,6 +115,11 @@
     color: #ffffff;
     padding: 0px 5px;
     background-color: rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:480px) {
+    .selected_id_area {
+        font-size: 12px;
+    }
 }
 
 .circle_icon {

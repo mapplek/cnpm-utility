@@ -73,7 +73,7 @@ export default function Profile() {
                                 </button>
                             </div>
                             <div className={styles.address_area}>
-                                Address: [ {address.substr(0, 6)}...{address.substr(-4, 4)} ]
+                                [ {address.substr(0, 5)}...{address.substr(-3, 3)} ]
                             </div>
                         </div>
                         <div className={styles.menu_container}>
@@ -97,7 +97,7 @@ export default function Profile() {
                                     setOpenedClosedButtonDisabled(true);
                                 }}
                             >
-                                Records Open/Close
+                                Open/Close
                             </button>
                         </div>
                         

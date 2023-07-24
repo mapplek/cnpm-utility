@@ -1,0 +1,7 @@
+# env files
+.env.*
+
+# Dependency directories
+.next/
+node_modules/
+out/
